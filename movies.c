@@ -23,11 +23,11 @@ void Action_movie(struct Movie movies[], int size) {    //Action" janridagi kino
     for (int i = 0; i < size; i++) {
         if (!strcmp(movies[i].genre.name, "Action")) {                     // Agar Actionga teng bo'lsa    natijalarni chiqadi
             printf("%-15s | %-6.1f | %-12d | %-10s | %-18s\n",
-                movies[i].name, 
-                movies[i].reyting, 
-                movies[i].chiqarilgan_yili, 
-                movies[i].genre.name, 
-                movies[i].genre.description);
+            movies[i].name, 
+            movies[i].reyting, 
+            movies[i].chiqarilgan_yili, 
+            movies[i].genre.name, 
+            movies[i].genre.description);
         }
     }
 }
